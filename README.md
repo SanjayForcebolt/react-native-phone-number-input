@@ -22,8 +22,8 @@
 </p>
 
 ## Want to show your love?
-<p>Click on 🌟 button.</p>
 
+<p>Click on 🌟 button.</p>
 
 ## Table of Contents
 
@@ -134,7 +134,7 @@ export default App;
 
 ## Props
 
-- `defaultCode?`: [CountryCode](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/src/types.ts#L252)
+- `defaultCode?`: [CountryCode](https://github.com/SanjayForcebolt/react-native-country-picker-modal/blob/master/src/types.ts#L252)
 - `withDarkTheme?`: boolean
 - `withShadow?`: boolean
 - `autoFocus?`: boolean
@@ -160,7 +160,7 @@ export default App;
 
 ## Methods
 
-- `getCountryCode`: () => [CountryCode](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/src/types.ts#L252)
+- `getCountryCode`: () => [CountryCode](https://github.com/SanjayForcebolt/react-native-country-picker-modal/blob/master/src/types.ts#L252)
 - `getCallingCode`: () => string | undefined
 - `getNumberAfterPossiblyEliminatingZero`: () => {number: string , formattedNumber: string };
 - `isValidNumber`: (number: string) => boolean
@@ -215,4 +215,4 @@ Reach out to me at one of the following places!
 
 Looking for a React/React-Native Freelance Expert? Email at garganurag893@gmail.com
 
-[react-native-country-picker-modal]: https://github.com/xcarpentier/react-native-country-picker-modal
+[react-native-country-picker-modal]: https://github.com/SanjayForcebolt/react-native-country-picker-modal
