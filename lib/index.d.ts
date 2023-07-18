@@ -10,6 +10,7 @@ export interface PhoneInputProps {
   withDarkTheme?: boolean;
   withShadow?: boolean;
   autoFocus?: boolean;
+  validation? : boolean;
   defaultCode?: CountryCode;
   value?: string;
   defaultValue?: string;
@@ -19,6 +20,7 @@ export interface PhoneInputProps {
   onChangeCountry?: (country: Country) => void;
   onChangeText?: (text: string) => void;
   onChangeFormattedText?: (text: string) => void;
+  // handleOnFocus?: () => void;
   renderDropdownImage?: JSX.Element;
   containerStyle?: StyleProp<ViewStyle>;
   textContainerStyle?: StyleProp<ViewStyle>;
@@ -30,6 +32,7 @@ export interface PhoneInputProps {
   layout?: "first" | "second";
   filterProps?: CountryFilterProps;
   countryPickerProps?: any;
+  withIcon? : boolean;
 }
 export interface PhoneInputState {
   code: CallingCode | undefined;
